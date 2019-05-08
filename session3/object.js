@@ -43,3 +43,14 @@
 // }
 // console.log(tong)
 
+let code = {
+    'hc': 'học',
+    'ng': 'người',
+    'ngta': 'người ta',
+    'eny': 'em người yêu',
+    'stt': 'status',
+    'ns': 'nói',
+    'r': 'rồi'
+};
+let a = prompt('Your code?')
+console.log(code[a])
