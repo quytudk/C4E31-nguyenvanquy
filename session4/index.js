@@ -26,7 +26,7 @@ window.onload = () => {
     
     let result = calc(x,y,op);
     
-    let errors = [-1, 0, 0, 0, 1];
+    let errors = [-1, 0, 0, 1];
     let error = errors[Math.floor(Math.random() * errors.length)]
     let hienThi = result + error;
     console.log(`${x} ${op} ${y} = ${hienThi} `)
