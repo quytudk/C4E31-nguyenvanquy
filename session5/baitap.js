@@ -10,11 +10,9 @@
 
 
 //Ex2
-// let menu = document.getElementById('menu')
-// let btn = document.getElementById('btn')
-// btn.addEventListener('click', () => {
-// console.dir(menu)
-// menu.remove(menu.selectedIndex)
-// })
-
-//Ex3
+let menu = document.getElementById('menu')
+let btn = document.getElementById('btn')
+btn.addEventListener('click', () => {
+console.dir(menu)
+menu.remove(menu.selectedIndex)
+})
